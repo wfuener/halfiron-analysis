@@ -6,7 +6,7 @@ import pandas as pd
 from ydata_profiling import ProfileReport
 
 BASE_DIR = os.path.join(os.path.dirname(__file__))
-INPUT_FILE = f"{BASE_DIR}/../other_datasets/half_ironman_results.csv"
+INPUT_FILE = f"{BASE_DIR}/half_ironman_results.csv"
 
 
 def main():
